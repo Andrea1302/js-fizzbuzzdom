@@ -14,4 +14,33 @@ h1{
     text-align: center;
     color: white;
     font-size: 60px;
+    margin-bottom: 20px;
 }
+
+/* Container  */
+#container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.square{
+    width: calc( 95% / 7 );
+    height: 103.6px ;
+    /* debug */
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+/* Regole fizz ( numero divisibile per 3) */
+.fizz{
+
+}
+
+/* Regole buzz ( numero divisibile per 5) */
+
+/* Regole Fizzbuzz ( numero divisibile per 3 e 5 ) */
