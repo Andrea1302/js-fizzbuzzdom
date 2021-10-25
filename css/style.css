@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(14, 46, 54);
+    background-color: rgb(18, 59, 70);
     padding: 20px 0;
 }
 
@@ -26,28 +26,28 @@ h1{
     justify-content: space-between;
 }
 .square{
-    width: calc( 95% / 7 );
-    height: 103.6px ;
+    width: calc(90% / 7) ;
+    height: 98.2px ;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 6px;
+    margin-bottom: 12px;
     /* debug */
-    background-color: teal;
+    background-color: rgb(18, 116, 155);
     
 }
 
 /* Regole fizz ( numero divisibile per 3) */
 .fizz{
-    background-color: mediumaquamarine;
+    background-color: rgb(68, 209, 162);
 }
 
 /* Regole buzz ( numero divisibile per 5) */
 .buzz {
-    background-color: rgb(247, 187, 76);
+    background-color: rgb(238, 186, 91);
 }
 
 /* Regole Fizzbuzz ( numero divisibile per 3 e 5 ) */
 .fizzbuzz{
-    background-color: rgb(255, 0, 64);
+    background-color: rgb(231, 64, 106);
 }
