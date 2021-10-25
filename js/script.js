@@ -10,16 +10,19 @@ for ( i=1; i<=100; i++) {
 
     // se il numero è divisibile per 3 aggiungo classe fizz 
 
-    if ( i%3===0 ) {
+    if ( i%3 === 0 ) {
         divJs.classList.add("fizz");
         divJs.innerHTML="fizz";
     }
 
     // se il numero è divisibile per 5 aggiungo classe buzz
-    if ( i%5 ===0 ) {
+    if ( i%5 === 0 ) {
         divJs.classList.add("buzz");
         divJs.innerHTML="buzz";
     }
     // se il numero è divisibile per 3 e 5 aggiungo classe fizzbuzz
-
+    if ( i%3 === 0 &&  i%5 ===0 ){
+        divJs.classList.add("fizzbuzz");
+        divJs.innerHTML="fizzbuzz";
+    }
 }
