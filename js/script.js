@@ -8,21 +8,21 @@ for ( i=1; i<=100; i++) {
     divJs.append(i);
     containerJs.append(divJs);
 
-    // se il numero è divisibile per 3 aggiungo classe fizz 
 
-    if ( i%3 === 0 ) {
-        divJs.classList.add("fizz");
-        divJs.innerHTML="fizz";
-    }
+if ( i%3 === 0 &&  i%5 ===0 ){
+// se il numero è divisibile per 3 e 5 aggiungo classe fizzbuzz 
+divJs.classList.add("fizzbuzz");
+divJs.innerHTML="fizzbuzz";
 
-    // se il numero è divisibile per 5 aggiungo classe buzz
-    if ( i%5 === 0 ) {
-        divJs.classList.add("buzz");
-        divJs.innerHTML="buzz";
-    }
-    // se il numero è divisibile per 3 e 5 aggiungo classe fizzbuzz
-    if ( i%3 === 0 &&  i%5 ===0 ){
-        divJs.classList.add("fizzbuzz");
-        divJs.innerHTML="fizzbuzz";
-    }
+} else if ( i%3 === 0 ) {
+// se il numero è divisibile per 3 aggiungo classe fizz 
+divJs.classList.add("fizz");
+divJs.innerHTML="fizz";
+
+} else if ( i%5 === 0 ) {
+// se il numero è divisibile per 5 aggiungo classe buzz
+divJs.classList.add("buzz");
+divJs.innerHTML="buzz";
+} 
+
 }
