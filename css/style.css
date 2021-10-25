@@ -28,19 +28,26 @@ h1{
 .square{
     width: calc( 95% / 7 );
     height: 103.6px ;
-    /* debug */
-    background-color: teal;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 6px;
+    /* debug */
+    background-color: teal;
+    
 }
 
 /* Regole fizz ( numero divisibile per 3) */
 .fizz{
-
+    background-color: mediumaquamarine;
 }
 
 /* Regole buzz ( numero divisibile per 5) */
+.buzz {
+    background-color: rgb(247, 187, 76);
+}
 
 /* Regole Fizzbuzz ( numero divisibile per 3 e 5 ) */
+.fizzbuzz{
+    background-color: rgb(255, 0, 64);
+}
